@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Kevin Sedgley's Website
+title: Website
 heading: <em>Kevin Sedgley.</em><br>I make software.
 description: A software developer with a website. Amazing stuff.
 ---
