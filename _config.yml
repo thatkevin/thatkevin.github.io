@@ -6,9 +6,7 @@ markdown: kramdown
 highlighter: rouge
 
 sass:
-  indentWidth: 4
   style: compact
-  precision: 10
 
 google_analytics_id: false # replace with "UA-XXXX"
 
