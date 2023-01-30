@@ -13,9 +13,8 @@ image: "/assets/images/cheap-lager.jpg"
 Whenever I find a pub that isn't a spoons, and you get a proper pint for under a fiver, I'm celebrating it here. +£5 pints used to come with a warning
 
  * Pride of Spitalfields, just off Brick Lane. JUNO: £4.40. This is a from a local brewery, is a 5 point something ABV, and a bit fruity. 
- * The Hare, Cambridge Heath Road. JUNO: £4.20. See above. Really good work from a cracking boozer
+ * The Hare, Cambridge Heath Road. JUNO: £4.20. XPA: £4.30. See above. Really good work from a cracking boozer
  * The Camel, Globe Town, Adnams Mosaic Pale, £5
  * The Cock Tav, Hackney Central. Dark Mild, 4%, £4.60
-
 
 [Please, share](mailto:pints@kev.cc) if you spot any more!
