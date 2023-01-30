@@ -1,6 +1,6 @@
 ---
 title: "Sub five pound pints in trendy East London"
-date: 2023-30-01T00:00:00+
+date: 2023-01-30T00:00:00+
 layout: post
 categories: ["Drink"]
 description: Yes, it's possible.
