@@ -1,4 +1,5 @@
 baseurl: "/"
+url: "https://kev.cc"
 permalink: pretty
 title: "Kevin Sedgley"
 collections_dir: collections
