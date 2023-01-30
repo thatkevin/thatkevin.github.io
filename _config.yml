@@ -1,4 +1,4 @@
-baseurl: ""
+baseurl: "/"
 permalink: pretty
 title: "Kevin Sedgley"
 collections_dir: collections
