@@ -13,7 +13,7 @@ Hello! I'm Kevin. I've been bashing keyboards since the mid-80s when Dad came ho
 
 I'm development lead at [Unboxed](//unboxed.co), a dev and service design agency that does very cool public sector stuff and also other stuff but isn't very good with coming up with a great tag line yet. 
 
-I try to work in organisations that do social good, and have worked in education, the public sector, the third sector, international development. This includes Tutorfair (now Superprof), ROSTR, Localgiving, POST, Crowd Technologies, Practical Action, and Plymouth Marine Laboratory, I worked in fintech for a bit, and hated it.
+I try to work in organisations that do social good, and have worked in education, the public sector, the third sector, international development. This includes Tutorfair (now Superprof), ROSTR, Localgiving, POST, Crowd Technologies, Practical Action, and Plymouth Marine Laboratory. I worked in fintech for a bit, and hated it.
 
 I once was an extra in an episode of <span class="text-decoration-wavy" style="text-decoration-style:wavy;" title="Look, he was sound at the time. You know who.">The IT Crowd</span>, and I've sung at Glastonbury.
 
