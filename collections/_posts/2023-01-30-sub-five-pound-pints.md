@@ -3,7 +3,7 @@ title: "Sub five pound pints in trendy East London"
 date: 2023-01-30T00:00:00+
 layout: post
 categories: ["Drink"]
-description: Yes, it's possible.
+description: It's possible.
 thumbnail: "/assets/images/cheap-lager.jpg"
 image: "/assets/images/cheap-lager.jpg"
 ---
@@ -17,4 +17,3 @@ Whenever I find a pub that isn't a spoons, and you get a proper pint for under a
  * The Camel, Globe Town, Adnams Mosaic Pale, £5
  * The Cock Tav, Hackney Central. Dark Mild, 4%, £4.60
 
-[Please, share](mailto:pints@kev.cc) if you spot any more!
