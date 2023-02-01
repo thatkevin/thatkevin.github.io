@@ -32,7 +32,7 @@ paginate_path: /blog/page:num/
 collections:
   posts:
     output: true
-    permalink: /blog/:path/
+    permalink: /blog/:path
 
 defaults:
   - scope:
@@ -45,10 +45,10 @@ defaults:
     values:
       image: true
   - scope:
-      path: "categories"
+      path: "slash"
     values:
       layout: category
-      permalink: /category/:basename/
+      permalink: /slash/:basename
 
 include: [".well-known"]
 

@@ -5,9 +5,15 @@ layout: default
 {% include heading.html heading=page.heading %}
 
 <main class="py-6">
-  {% for post in site.posts %}
+  {% for post in site.posts limit: site.paginate %}
   <div class="mb-12">
     {% include summary.html post=post %}
   </div>
   {% endfor %}
+
+  {% if site.posts.size > site.paginate %}
+    <a href="/blog/page2">More posts…</a>
+  {% endif %}
 </main>
+
+{% include toots.html %}

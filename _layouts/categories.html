@@ -14,7 +14,7 @@ body_classes: page-categories
   {% assign category_name = category | first %}
   {% assign category_slug = category_name | slugify %}
   <div class="mb-10">
-    <h3 class="font-medium text text-green-400" id="#{{ category_slug }}">{{ category_name }}</h3>
+    <h3 class="font-medium text text-green-400" id="#{{ category_slug }}"><a href="/slash/{{ category_name | downcase }}">{{ category_name }}</a></h3>
     {% for post in site.categories[category_name] %}
       {% include summary-category.html post=post %}
     {% endfor %}

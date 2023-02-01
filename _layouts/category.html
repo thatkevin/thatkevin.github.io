@@ -2,10 +2,12 @@
 layout: default
 body_classes: page-category
 ---
+{% assign title = 'slash/' | append: page.title | downcase | append: '/' %}
+{% include heading.html heading=title description=page.description colourful=1 %}
 
-{% include heading.html heading=page.title description=page.description %}
+{{ content }}
 
-<main class="pb-6 md:pb-12">
+<main class="pb-6 md:pb-12 mt-6">
   {% assign category = page.title %}
   {% for post in site.categories[category] %}
     {% include summary-category.html post=post %}

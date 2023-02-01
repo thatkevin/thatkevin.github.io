@@ -2,7 +2,7 @@
 layout: basic
 title: "Look!"
 date: 2014-03-20T20:40:00+0:00
-permalink: "/about/"
+permalink: "/about"
 description: "About Kevin Sedgley."
 image: "/assets/images/kevin-sedgley-outside-clive.jpg"
 ---
@@ -13,7 +13,7 @@ Hello! I'm Kevin. I've been bashing keyboards since the mid-80s when Dad came ho
 
 I'm development lead at [Unboxed](//unboxed.co), a dev and service design agency that does very cool public sector stuff.
 
-I try to work in organisations that do social good, and have worked in education, the public sector, the third sector, international development. This includes Tutorfair (now Superprof), ROSTR, Localgiving, POST, Crowd Technologies, Practical Action, and Plymouth Marine Laboratory. I worked in fintech for a bit, and hated it.
+I try to work in organisations that do social good, and have worked in education, the public sector, the third sector, and international development. This includes Tutorfair (now Superprof), ROSTR, Localgiving, POST, Crowd Technologies, Practical Action, and Plymouth Marine Laboratory. I worked in fintech for a bit, and hated it.
 
 I once was an extra in an episode of <span class="text-decoration-wavy" style="text-decoration-style:wavy;" title="Look, he was sound at the time. You know who.">The IT Crowd</span>, and I've sung at Glastonbury.
 
@@ -23,3 +23,6 @@ I have an itinerate life living on a narrowboat, but can be found between Covent
 
 Say hello! My email is [me@kev.cc](mailto:me@kev.cc) and I'm also [@kev@kev.cc on Mastodon](//m.kev.cc/@kev).
 
+## This website
+
+This uses [Jekyll](https://jekyllrb.com/) [Atlantic theme](https://github.com/zerostaticthemes/jekyll-atlantic-theme), which has [Tailwind CSS](https://tailwindcss.com/) built in and runs on [Github pages](https://pages.github.com/).
