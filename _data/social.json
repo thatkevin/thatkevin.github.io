@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/thatkevin",
+    "image": "/assets/images/logo/github.svg"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/thatkevin",
+    "image": "/assets/images/logo/twitter.svg"
+  },
+  {
+    "name": "Mastodon",
+    "link": "https://m.kev.cc/@kev",
+    "image": "/assets/images/logo/mastodon.svg"
+  },
+  {
+    "name": "Linkedin",
+    "link": "https://linkedin.com/in/thatkevin",
+    "image": "/assets/images/logo/linkedin.svg"
+  }
+]
