@@ -2,7 +2,7 @@
 title: "Sub five pound pints in trendy East London"
 date: 2023-01-30T00:00:00+
 layout: post
-categories: ["Drink"]
+categories: ["Bev"]
 description: It's possible.
 thumbnail: "/assets/images/cheap-lager.jpg"
 image: "/assets/images/cheap-lager.jpg"
