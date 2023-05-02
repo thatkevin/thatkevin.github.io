@@ -56,15 +56,20 @@
                                 <div class="col-xs-12 col-sm-12">
                                     <div class="bottom-container">
                                         <div class="bottom-element">
-                                            <div class="meme-name-area">Matt Barker</div>
+                                            <div class="meme-name-area">Simon Hedges</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="photo">
-                            <img src="images/mugshots/mattb.png" crossorigin="anonymous">
+                            <img src="images/mugshots/hedges.png" crossorigin="anonymous">
                         </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="journo">Journalist</label>
+                        <input type="text" class="form-control" id="journo" placeholder="Simon Hedges">
                     </div>
                     <!-- End meme-bg-target -->
                     <!-- meme-control -->
@@ -98,41 +103,12 @@
                                 <p class="h4">Sound people</p>
 
                                 
-                                <button type="button" class="btn btn-primary name" name="Matthew Barker" value="mattb">Matthew Barker</button>
+                                <button type="button" class="btn btn-primary name" name="Frampton Essex" value="frammattb">Frampton Essex</button>
+                                <button type="button" class="btn btn-primary name" name="Pharley Smith" value="phargouty">Pharley Smith</button>
+
 
                             </div>
                             
-                            <div class="btn-group btn-group-md">
-
-                                <p class="h4">Labour</p>
-
-                                <button type="button" class="btn btn-primary name" name="Aaron Bastani" value="aaronbastani">Aaron Bastani</button>
-                                <button type="button" class="btn btn-primary name" name="Alastair Campbell" value="alastaircampbell">Alastair Campbell</button>
-                                <button type="button" class="btn btn-primary name" name="Andrew Adonis" value="andrewadonis">Andrew Adonis</button>
-                                <button type="button" class="btn btn-primary name" name="Andy Burnham" value="andyburnham">Andy Burnham</button>
-                                <button type="button" class="btn btn-primary name" name="Angela Rayner" value="angelarayner">Angela Rayner</button>
-                                <button type="button" class="btn btn-primary name" name="Chris Williamson" value="chriswilliamson">Chris Williamson</button>
-                                <button type="button" class="btn btn-primary name" name="David Lammy" value="davidlammy">David Lammy</button>
-                                <button type="button" class="btn btn-primary name" name="Dawn Butler" value="dawnbutler">Dawn Butler</button>
-                                <button type="button" class="btn btn-primary name" name="Diane Abbott" value="dianeabbott">Diane Abbott</button>
-                                <button type="button" class="btn btn-primary name" name="Eddie Izzard" value="eddieizzard">Eddie Izzard</button>
-                                <button type="button" class="btn btn-primary name" name="Emily Thornberry" value="emilythornberry">Emily Thornberry</button>
-                                <button type="button" class="btn btn-primary name" name="George Galloway" value="georgegalloway">George Galloway</button>
-                                <button type="button" class="btn btn-primary name" name="Fiona Onasanya" value="fionaonasanya">Fiona Onasanya</button>
-                                <button type="button" class="btn btn-primary name" name="Jeremy Corbyn" value="jeremycorbyn">Jeremy Corbyn</button>
-                                <button type="button" class="btn btn-primary name" name="Jess Phillips" value="jessphillips">Jess Phillips</button>
-                                <button type="button" class="btn btn-primary name" name="John McDonnell" value="johnmcdonnell">John McDonnell</button>
-                                <button type="button" class="btn btn-primary name" name="Ken Livingstone" value="kenlivingstone">Ken Livingstone</button>
-                                <button type="button" class="btn btn-primary name" name="Len McCluskey" value="lenmccluskey">Len McCluskey</button>
-                                <button type="button" class="btn btn-primary name" name="Naz Shah" value="nazshah">Naz Shah</button>
-                                <button type="button" class="btn btn-primary name" name="Rebecca Long-Bailey" value="rebeccalongbailey">Rebecca Long-Bailey</button>
-                                <button type="button" class="btn btn-primary name" name="Seumas Milne" value="seumasmilne">Seumas Milne</button>
-                                <button type="button" class="btn btn-primary name" name="Shami Chakrabarti" value="shamichakrabarti">Shami Chakrabarti</button>
-                                <button type="button" class="btn btn-primary name" name="Stella Creasy" value="stellacreasy">Stella Creasy</button>
-                                <button type="button" class="btn btn-primary name" name="Sadiq Khan" value="sadiqkhan">Sadiq Khan</button>
-                                <button type="button" class="btn btn-primary name" name="Yvette Cooper" value="yvettecooper">Yvette Cooper</button>
-                                <button type="button" class="btn btn-primary name" name="Zarah Sultana" value="zarahsultana">Zarah Sultana</button>
-                            </div>
                             
                             <div class="btn-group btn-group-md">
                                 <p class="h4">Billionaire Beggers</p>
@@ -141,7 +117,7 @@
                             
                             <div class="btn-group btn-group-md">
                                 <p class="h4">Satirists</p>
-                                <button type='button' class="btn btn-primary name" name="Jonathan Pie" value="jonathanpie">Jonathan Pie</button>
+                                <button type='button' class="btn btn-primary name" name="Jonathan Pie" value="pie">Jonathan Pie</button>
                             </div>
                         </div>
                     </div>
@@ -310,6 +286,10 @@
 
 
     $(document).ready(function(e) {
+
+            $('#journo').on('change', function() {
+                $(".meme-name-area").text($(this).val());
+            });
 
             $(".name").click(function() {
                     $(".photo img").attr('src', 'images/mugshots/' + this.value + '.png');
