@@ -26,3 +26,4 @@ Say hello! My email is [me@kev.cc](mailto:me@kev.cc) and I'm also [@kev@kev.cc o
 ## This website
 
 This uses [Jekyll](https://jekyllrb.com/) [Atlantic theme](https://github.com/zerostaticthemes/jekyll-atlantic-theme), which has [Tailwind CSS](https://tailwindcss.com/) built in and runs on [Github pages](https://pages.github.com/).
+It's a surveillance free, tracker free blog from my end, but I do host on Github pages via Cloudflare, and they probably track you somehow. But I don't care who you are 😘

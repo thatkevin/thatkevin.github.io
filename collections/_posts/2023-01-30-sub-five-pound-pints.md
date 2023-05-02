@@ -16,4 +16,6 @@ Whenever I find a pub that isn't a spoons, and you get a proper pint for under a
  * The Hare, Cambridge Heath Road. JUNO: £4.20. XPA: £4.30. See above. Really good work from a cracking boozer
  * The Camel, Globe Town, Adnams Mosaic Pale, £5
  * The Cock Tav, Hackney Central. Dark Mild, 4%, £4.60
-
+ * Betsey Trotwood, Clerkenwell. Whitstable Pale, £4.60.
+ * The Three Crowns, Stoke Newington. Inches Cider, £5.00.
+ * The Dove, Broadway Market, ELB Nightwatchmen Bitter, 4.5%, £4.80.
