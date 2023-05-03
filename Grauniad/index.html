@@ -63,7 +63,7 @@
                             </div>
                         </div>
                         <div class="photo">
-                            <img src="images/mugshots/hedges.png" crossorigin="anonymous">
+                            <img src="images/mugshots/hedges.png" crossorigin="anonymous" align="right" height="220">
                         </div>
                     </div>
                     
@@ -129,6 +129,7 @@
                                 <button type="button" class="btn btn-primary name" name="Margaret Thatcher" value="thatcher">Thatcher</button>
                                 <button type="button" class="btn btn-primary name" name="Jesus Christ" value="jesus">Jesus Christ</button>
                                 <button type="button" class="btn btn-primary name" name="Queen Elizabeth II" value="qe2">QE2</button>
+                                <button type="button" class="btn btn-primary name" name="Simon" value="simon">Simon</button>
                             </div>
                             <div class="btn-group btn-group-md">
                                 <p class="h4">Sport</p>
@@ -139,6 +140,13 @@
                                 <button type='button' class="btn btn-primary name" name="Jonathan Pie" value="pie">Jonathan Pie</button>
                             </div>
                         </div>
+                        <h2>Upload your own</h2>
+                        <form id="upload"><div class="input-group">
+                            <input id="newJourno" name="newJourno" type="text" class="form-control" placeholder="Journo name" aria-describedby="basic-addon1">
+                            <input type="file" id="imageUpload">
+                            <button type="submit" class="btn">Upload</button>
+                          </div>
+                        </form>
                     </div>
                 </div>
                 <!-- end of Names row -->
@@ -429,6 +437,21 @@
         }
 
     );
+
+    const form = document.querySelector('#form');
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const fileInput = document.querySelector('#imageUpload');
+        const jname = document.querySelector('')
+        const file = fileInput.files[0];
+        alert
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = () => {
+            const imageBase64 = reader.result;
+            localStorage.setItem('userImage', imageBase64);
+        };
+    });
 </script>
 
 </html>
