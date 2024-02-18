@@ -19,4 +19,4 @@ I have an itinerate life living on a narrowboat, and can be found between Covent
 
 ## Contact me
 
-Say hello! My email is [me@kev.cc](mailto:me@kev.cc) and I'm also very unactive on [Mastodon](//m.kev.cc/@kev) and [Linkedin](//linkedin.com/thatkevin).
+Say hello! My email is [me@kev.cc](mailto:me@kev.cc) and I'm also very inactive on [Mastodon](//m.kev.cc/@kev), [Bluesky](//bsky.app/profile/kev.cc), and [Linkedin](//linkedin.com/thatkevin).
