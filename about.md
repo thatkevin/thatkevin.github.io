@@ -15,7 +15,7 @@ I try to work in organisations that do social good, and have worked in education
 
 I once was an extra in an episode of <span class="text-decoration-wavy" style="text-decoration-style:wavy;" title="Look, he was sound at the time. You know who.">The IT Crowd</span>, and I've sung at Glastonbury.
 
-I have an itinerate life living on a narrowboat, but can be found between Coventry and London, in the UK. I'm also a fan of a [soap opera / football team](//www.ccfc.co.uk).
+I have an itinerate life living on a narrowboat, and can be found between Coventry and London, in the UK. I'm also a fan of a [soap opera / football team](//www.ccfc.co.uk).
 
 ## Contact me
 
