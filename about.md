@@ -11,9 +11,7 @@ image: "/assets/images/kevin-sedgley-outside-clive.jpg"
 
 Hello! I'm Kevin. I've been bashing keyboards since the mid-80s when Dad came home from the pub with an Amstrad CPC 464 and said "this'll keep him quiet". I've been a software developer for 20+ years, and have led teams since 2010.
 
-I'm development lead at [Unboxed](//unboxed.co), a dev and service design agency that does very cool public sector stuff.
-
-I try to work in organisations that do social good, and have worked in education, the public sector, the third sector, and international development. This includes Tutorfair (now Superprof), ROSTR, Localgiving, POST, Crowd Technologies, Practical Action, and Plymouth Marine Laboratory. I worked in fintech for a bit, and hated it.
+I try to work in organisations that do social good, and have worked in education, the public sector, the third sector, and international development. This includes Unboxed, Tutorfair (now Superprof), ROSTR, Localgiving, POST, Crowd Technologies, Practical Action, and Plymouth Marine Laboratory.
 
 I once was an extra in an episode of <span class="text-decoration-wavy" style="text-decoration-style:wavy;" title="Look, he was sound at the time. You know who.">The IT Crowd</span>, and I've sung at Glastonbury.
 
@@ -21,9 +19,4 @@ I have an itinerate life living on a narrowboat, but can be found between Covent
 
 ## Contact me
 
-Say hello! My email is [me@kev.cc](mailto:me@kev.cc) and I'm also [@kev@kev.cc on Mastodon](//m.kev.cc/@kev).
-
-## This website
-
-This uses [Jekyll](https://jekyllrb.com/) [Atlantic theme](https://github.com/zerostaticthemes/jekyll-atlantic-theme), which has [Tailwind CSS](https://tailwindcss.com/) built in and runs on [Github pages](https://pages.github.com/).
-It's a surveillance free, tracker free blog from my end, but I do host on Github pages via Cloudflare, and they probably track you somehow. But I don't care who you are 😘
+Say hello! My email is [me@kev.cc](mailto:me@kev.cc) and I'm also very unactive on [Mastodon](//m.kev.cc/@kev) and [Linkedin](//linkedin.com/thatkevin).
