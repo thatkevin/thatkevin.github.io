@@ -5,11 +5,6 @@
     "image": "/assets/images/logo/github.svg"
   },
   {
-    "name": "Twitter",
-    "link": "https://twitter.com/thatkevin",
-    "image": "/assets/images/logo/twitter.svg"
-  },
-  {
     "name": "Mastodon",
     "link": "https://m.kev.cc/@kev",
     "image": "/assets/images/logo/mastodon.svg"
