@@ -10,7 +10,7 @@ image: "/assets/images/sky-computing.jpg"
 
 Welcome to my talk on “Sky computing”, or “How am I going to get my app on the internet in the next ten years, maybe”
 
-I've presented this at a couple of events, most recently at [London Ruby User Group)(https://lrug.org).
+I've presented this at a couple of events, most recently at [London Ruby User Group](https://lrug.org).
 
 ![Slide 1 - About me](/assets/2024-01-10-sky-computing/images/1.jpg)
 _Slide 1 - About me_
