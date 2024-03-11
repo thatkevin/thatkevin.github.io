@@ -15,7 +15,7 @@ layout: default
 {% endif %}
 
 {% if page.image %}
-  <img width="1600" height="900" src="{{ page.image }}" alt='{{ page.image | replace: "-", " " | replace: ".jpg", "" | replace: ".png", "" | replace: "/assets/images/" }}' />
+  <img width="100%" src="{{ page.image }}" alt='{{ page.image | replace: "-", " " | replace: ".jpg", "" | replace: ".png", "" | replace: "/assets/images/" }}' />
 {% endif %}
 <div class="flex flex-col md:flex-row py-6 md:py-12">
 
@@ -43,7 +43,7 @@ layout: default
     <div class="prose">
       {{ content }}
     </div>
-    <small style="display:none"><a href="{{ 'https://github.com/thatkevin/thatkevin.github.io/blob/master/collections/_posts/' | append: page.url | replace: 'blog', '' | replace: '_posts///', '_posts/' | append: '.md' }}">🍽️</small>
+    <small><a href="{{ 'https://github.com/thatkevin/thatkevin.github.io/blob/master/collections/_posts/' | append: page.url | replace: 'blog', '' | replace: '_posts///', '_posts/' | append: '.md' }}">🍽️</small>
   </div>
 
 </div>
@@ -57,4 +57,6 @@ layout: default
       {% endfor %}
     </div>
   </div>
-{% endif %} 
+{% endif %}
+
+<script defer async type="text/javascript" src="{{ '/assets/js/slide.js' | relative_url }}"></script>
