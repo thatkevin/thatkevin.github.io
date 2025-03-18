@@ -5,9 +5,9 @@
     "image": "/assets/images/logo/github.svg"
   },
   {
-    "name": "Mastodon",
-    "link": "https://m.kev.cc/@kev",
-    "image": "/assets/images/logo/mastodon.svg"
+    "name": "Bluesky",
+    "link": "https://bsky.app/profile/kev.cc",
+    "image": "/assets/images/logo/bluesky.svg"
   },
   {
     "name": "Linkedin",
