@@ -3,6 +3,8 @@ layout: basic
 title: "IT Crowd"
 date: 2025-03-18T20:40:00+0:00
 permalink: "/it-crowd"
+permalink: "/itcrowd"
+permalink: "/it_crowd"
 description: "I was in the IT crowd"
 image: "/assets/images/kevin-sedgley-outside-clive.jpg"
 ---
