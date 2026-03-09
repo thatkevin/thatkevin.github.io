@@ -1,0 +1,53 @@
+body {
+}
+
+.logo h2 strong {
+  font-weight: inherit;
+  font-style: normal;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.heading em,
+.heading strong {
+  font-weight: inherit;
+  font-style: normal;
+}
+.heading em,
+.heading strong {
+  color: transparent;
+}
+.heading em,
+.heading strong {
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.heading em,
+.heading strong,
+.logo h2 strong {
+  --tw-gradient-stops: #4ade80, #3b82f6;
+}
+.heading em,
+.heading strong,
+.logo h2 strong {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+p img + em {
+  margin-top: -2em;
+  display: block;
+  background-image: linear-gradient(
+    45deg,
+    rgba(74, 222, 128, 0.05) 25%,
+    rgba(59, 130, 246, 0.05) 25%,
+    rgba(59, 130, 246, 0.05) 50%,
+    rgba(74, 222, 128, 0.05) 50%,
+    rgba(74, 222, 128, 0.05) 75%,
+    rgba(59, 130, 246, 0.05) 75%,
+    rgba(59, 130, 246, 0.05) 100%
+  );
+  background-size: 56.57px 56.57px;
+  text-align: end;
+  padding: 0.1em 1em;
+}
