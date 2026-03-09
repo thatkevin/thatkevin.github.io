@@ -8,7 +8,7 @@ thumbnail: "/assets/images/west-orchards-lol.jpg"
 image: "/assets/images/west-orchards-lol.jpg"
 ---
 
-Two things drove this. One is that I travel around the country on a narrowboat, and finding out what's on — community events, local arts, that sort of thing — is genuinely hard. Everything is in a different place, formatted differently, and half the time you find out about something good the day after it happened. It used to be quite easy on facebook in its 2010-ish peak, but it's pretty useless now.
+Two things drove this. One is that I travel around the country on a narrowboat, and finding out what's on - community events, local arts, that sort of thing - is genuinely hard. Everything is in a different place, formatted differently, and half the time you find out about something good the day after it happened. It used to be quite easy on facebook in its 2010-ish peak, but it's pretty useless now.
 
 The other is [u/HadjiChippoSafri](https://www.reddit.com/user/HadjiChippoSafri) on /r/coventry, who posts a weekly "What's On" thread and has done for years. It's a useful thing and it's part of what inspired this. 
 
@@ -31,7 +31,7 @@ Someone from Coventry is known as a 'coventrian' or, informally, a 'cov kid'. So
 
 [cov.kids](https://cov.kids) is a fairly simple idea: pull events from all those sources automatically, deduplicate them, get a human (me) to review them, then publish a clean list.
 
-It runs on Rails 8. I'm using Claude (the AI) to extract structured event data from unstructured sources — a venue's events page is just HTML, an email newsletter is just text, but Claude can read it and return `{name, date, venue, category, url}` as JSON. It works well, until it hallucinates url's and such.
+It runs on Rails 8. I'm using Claude (the AI) to extract structured event data from unstructured sources - a venue's events page is just HTML, an email newsletter is just text, but Claude can read it and return `{name, date, venue, category, url}` as JSON. It works well, until it hallucinates url's and such.
 
 The sources right now:
 
@@ -42,7 +42,7 @@ The sources right now:
 - iCal feeds (CVFolk)
 - Facebook pages (via Chrome automation)
 
-Events get fuzzy-deduplicated using PostgreSQL's trigram similarity — if two sources list the same gig with slightly different names, they get merged rather than appearing twice.
+Events get fuzzy-deduplicated using PostgreSQL's trigram similarity - if two sources list the same gig with slightly different names, they get merged rather than appearing twice.
 
 ## The static site
 
@@ -52,15 +52,15 @@ It means the public site is fast, costs nothing to host, and has no moving parts
 
 ## What's interesting
 
-The AI extraction piece is the bit I find most interesting. Before this project I'd have written a custom parser for each source — brittle, annoying, lots of regex. Now I just pipe HTML through Claude with a prompt that says "extract events, return JSON" and it mostly just works. When it doesn't (wrong URL, wrong date format), I fix the prompt or the preprocessing.
+The AI extraction piece is the bit I find most interesting. Before this project I'd have written a custom parser for each source - brittle, annoying, lots of regex. Now I just pipe HTML through Claude with a prompt that says "extract events, return JSON" and it mostly just works. When it doesn't (wrong URL, wrong date format), I fix the prompt or the preprocessing.
 
-The trickiest bit is URLs. Scrapers collect links from pages, but Claude sometimes hallucinates plausible-looking URLs that don't actually exist. The fix was to explicitly include links from the page in the text sent to Claude, and tell it to only use URLs that appear as is — not to construct them. That helped a lot.
+The trickiest bit is URLs. Scrapers collect links from pages, but Claude sometimes hallucinates plausible-looking URLs that don't actually exist. The fix was to explicitly include links from the page in the text sent to Claude, and tell it to only use URLs that appear as is - not to construct them. That helped a lot.
 
 The fuzzy dedup is also satisfying. Reddit might say "Charles Dexter Ward & The Imagineers + Tellemahookah + What about Eric?" and The Tin's website says "Charles Dexter Ward and the Imagineers". They're the same gig. pg_trgm similarity catches most of these at a 0.4 threshold, and the admin UI lets me merge the ones it misses.
 
 ## Where it's at
 
-It's a work in progress, not ready for anything I'd call live. The data is messy — events from the wrong week show up occasionally, categories get misclassified, some dates don't parse. I'm gradually fixing these as I find them.
+It's a work in progress, not ready for anything I'd call live. The data is messy - events from the wrong week show up occasionally, categories get misclassified, some dates don't parse. I'm gradually fixing these as I find them.
 
 But the goal is pretty simple: if you live in Coventry and want to know what's happening this weekend, you should be able to find out without trawling twenty different websites, and without a generic events platform showing you a Take That cover band playing in Hereford in April.
 
