@@ -1,8 +1,12 @@
-# cov.kids — a events aggregator for Coventry
-
-*March 2026*
-
-## The problem
+---
+title: "cov.kids — a events aggregator for Coventry"
+date: 2026-03-09T00:00:00+
+layout: post
+categories: ["Dev"]
+description: a events aggregator for Coventry
+thumbnail: "/assets/images/west-orchards-lol.jpg"
+image: "/assets/images/west-orchards-lol.jpg"
+---
 
 Two things drove this. One is that I travel around the country on a narrowboat, and finding out what's on — community events, local arts, that sort of thing — is genuinely hard. Everything is in a different place, formatted differently, and half the time you find out about something good the day after it happened. It used to be quite easy on facebook in its 2010-ish peak, but it's pretty useless now.
 
