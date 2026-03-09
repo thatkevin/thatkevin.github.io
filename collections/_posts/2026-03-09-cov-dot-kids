@@ -1,5 +1,5 @@
 ---
-title: "cov.kids — a events aggregator for Coventry"
+title: "cov.kids: an events aggregator for Coventry"
 date: 2026-03-09T00:00:00+
 layout: post
 categories: ["Dev"]
@@ -22,6 +22,10 @@ For coventry, the actual information is scattered:
 - The CVFolk calendar (brilliant if you're into folk music in the Midlands)
 
 None of it talks to each other. You have to know where to look, and most people don't.
+
+## the name
+
+Someone from Coventry is known as a 'coventrian' or, informally, a 'cov kid'. So I'm hoping the domain name works!
 
 ## What I built
 
