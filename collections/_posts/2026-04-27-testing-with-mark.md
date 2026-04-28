@@ -2,14 +2,14 @@
 title: Announcing PAGER, and testing with Mark Corrigan
 date: 2026-04-27
 layout: post
-categories: ["cmstest", "dev"]
+categories: ["Dev", "CMS Test"]
 description: How I posted this post
 thumbnail: /assets/images/656054248_951857007290471_1867212732135820190_n.jpg
 image: /assets/images/656054248_951857007290471_1867212732135820190_n.jpg
 ---
 I don't post to this website enough. It's hosted on Github pages, mainly because I'm cheap. Posting involves opening a terminal, which means I'm already in "work mode", which means it stops feeling like writing and starts feeling like a task.
 
-The fix is cutting the number of steps between "I have something to write" and "it's live"!
+The fix is cutting the number of steps between "I have something to write" and "it's live"
 
 ## Github pages
 
