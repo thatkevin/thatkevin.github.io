@@ -27,7 +27,7 @@ None of it talks to each other. You have to know where to look, and most people 
 
 Someone from Coventry is known as a 'coventrian' or, informally, a 'cov kid'. So I'm hoping the domain name works!
 
-![paste-1777403060732.webp](/assets/images/paste-1777403060732.webp)
+![paste-1777403060732.webp](/assets/images/cov-kids.webp)
 
 ## What I built
 
