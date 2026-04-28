@@ -13,7 +13,7 @@ The fix is cutting the number of steps between "I have something to write" and "
 
 ## Github pages
 
-It's hosted on Github pages, mainly because it's free, I'm a cheapskate, and I don't have to maintain it. that's my day job, not what I want to do more of in my fun time. If you have Jekyll on it, you are just editing markdown files.
+It's hosted on Github pages, mainly because it's free, I'm a cheapskate, and I don't have to maintain it. that's my day job, not what I want to do more of in my fun time. If you have [Jekyll](https://jekyllrb.com/) on it, you are just editing markdown files.
 
 ## What I wanted
 
