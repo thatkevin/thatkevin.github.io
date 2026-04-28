@@ -40,8 +40,8 @@ I live on a narrowboat, which I'm sure you'll agree is incredible unique and koo
 </picture>
 
 <picture>
-  <source srcset="/assets/images/paste-1777397874255-480w.webp 480w, /assets/images/paste-1777397874255-720w.webp 720w, /assets/images/paste-1777397874255-1200w.webp 1200w" sizes="100vw">
-  <img src="/assets/images/paste-1777397874255-1200w.webp" alt="paste-1777397874255.png">
+  <source srcset="/assets/images/pal-boat-480w.webp 480w, /assets/images/pal-boat-720w.webp 720w, /assets/images/pal-boat-1200w.webp 1200w" sizes="100vw">
+  <img src="/assets/images/pal-boat-1200w.webp" alt="paste-1777397874255.png">
 </picture>
 
 The following are my all-time faves:
