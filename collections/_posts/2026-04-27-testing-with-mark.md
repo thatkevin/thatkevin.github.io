@@ -4,8 +4,8 @@ date: 2026-04-27
 layout: post
 categories: ["Dev", "CMS Test"]
 description: How I posted this post
-thumbnail: /assets/images/656054248_951857007290471_1867212732135820190_n.jpg
-image: /assets/images/656054248_951857007290471_1867212732135820190_n.jpg
+thumbnail: /assets/images/mark-corrigan-is-angry.jpg
+image: /assets/images/mark-corrigan-is-angry.jpg
 ---
 I don't post to this website enough. Posting involves opening a terminal, which means I'm already in "work mode", which means it stops feeling like writing and starts feeling like a task.
 
