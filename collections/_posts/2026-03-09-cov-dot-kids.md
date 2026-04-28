@@ -3,7 +3,7 @@ title: "cov.live: an events aggregator for Coventry"
 date: 2026-03-09
 layout: post
 categories: ["Dev"]
-description: a events aggregator for Coventry
+description: an events aggregator for Coventry
 thumbnail: /assets/images/west-orchards-lol.jpg
 image: /assets/images/west-orchards-lol.jpg
 ---
@@ -26,6 +26,8 @@ None of it talks to each other. You have to know where to look, and most people 
 ## The name
 
 Someone from Coventry is known as a 'coventrian' or, informally, a 'cov kid'. So I'm hoping the domain name works!
+
+![paste-1777403060732.webp](/assets/images/paste-1777403060732.webp)
 
 ## What I built
 
