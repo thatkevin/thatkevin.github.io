@@ -7,7 +7,7 @@ description: Just some Great Boat Names
 thumbnail: /assets/images/paste-1777397778096.png
 image: /assets/images/pal-narrowboat.png
 ---
-I live on a narrowboat, which I'm sure you'll agree is incredible unique and kooky of me. Here's some fantastic boat names I've come across:
+I live on a narrowboat, which is very unique and kooky of me. Here's some fantastic boat names I've come across:
 
 <picture>
   <source srcset="/assets/images/paste-1777413473844-480w.webp 480w, /assets/images/paste-1777413473844-720w.webp 720w, /assets/images/paste-1777413473844-1200w.webp 1200w" sizes="100vw">
