@@ -71,6 +71,6 @@ Longer term I want to open it up and get it consistent, and show events beyond C
 ## edit: changed the domain
 
 _28 April 2026_
-I've moved the domain over to cov.live. The previous one was marked as hosting malware, and despite many efforts to speak to various """security""" vendors, they refused to remove the categorisation. So it wouldn't load through EE UK or Virgin media ISPs, which was a problem. I solved it by moving domains.
+I've moved the domain over to [cov.live](https://cov.live/). The previous one was marked as hosting malware, and despite many efforts to speak to various """security""" vendors, they refused to remove the categorisation. So it wouldn't load through EE UK or Virgin media ISPs, which was a problem. I solved it by moving domains.
 
-The code will probably end up on GitHub at some point once it's a bit less embarrassing!
+The code will probably end up on GitHub at some point once I've got it working well
