@@ -1,5 +1,5 @@
 ---
-title: Testing with Mark
+title: Announcing PAGER, and testing with Mark Corrigan
 date: 2026-04-27
 layout: post
 categories: ["cmstest", "dev"]
@@ -38,5 +38,9 @@ It runs straight off GitHub Pages, or wherever you host your static html.
 ## The code
 
 It's at [https://github.com/thatkevin/pager](PAGER) and the auth repo is at [https://github.com/thatkevin/pager-auth](pager-auth).
+
+## Why Mark Corrigan?
+
+Er, it was the first picture I found, so he's making a guest appearance
 
 This post was written in it, and this is a test post!
