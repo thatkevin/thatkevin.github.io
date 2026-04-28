@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<style>
+  html { overflow-x: hidden; }
+</style>
+
+<div class="gallery-progress" id="gallery-progress"></div>
+
+{% include heading.html heading=page.title description=page.description align="center" date=page.date %}
+
+<div class="gallery-prose prose" id="gallery-prose">
+  {{ content }}
+</div>
+
+{% if page.categories %}
+  <div class="py-6 mt-6 border-t-2">
+    <h3 class="text-sm font-medium mb-1">Categories</h3>
+    <div>
+      {% for category in page.categories %}
+        {% include category-badge.html %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+<small style="display:none"><a href="{{ 'https://github.com/thatkevin/thatkevin.github.io/blob/master/collections/_posts/' | append: page.url | replace: 'blog', '' | replace: '_posts///', '_posts/' | append: '.md' }}">🍽️</a></small>
+
+<script defer src="{{ '/assets/js/gallery.js' | relative_url }}"></script>
