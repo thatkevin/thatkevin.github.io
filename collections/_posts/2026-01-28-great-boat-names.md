@@ -4,6 +4,8 @@ date: 2026-01-28
 layout: post
 categories: ["Boating"]
 description: Just some Great Boat Names
+thumbnail: /assets/images/paste-1777397778096.png
+image: /assets/images/paste-1777397778096.png
 ---
 I live on a narrowboat, which I'm sure you'll agree is incredible unique and kooky of me. Here's some fantastic boat names I've come across.
 
