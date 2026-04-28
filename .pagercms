@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "branch": "master",
+  "postsPath": "collections/_posts",
+  "pagesPath": "pages",
+  "mediaPath": "assets/images",
+  "layouts": [
+    "basic",
+    "categories",
+    "category",
+    "default",
+    "gallery",
+    "home",
+    "post",
+    "slide"
+  ],
+  "maxImageWidth": 1800
+}
