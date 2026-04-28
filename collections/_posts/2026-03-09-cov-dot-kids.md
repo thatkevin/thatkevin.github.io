@@ -1,11 +1,11 @@
 ---
-title: "cov.kids: an events aggregator for Coventry"
-date: 2026-03-09T00:00:00+
+title: "cov.live: an events aggregator for Coventry"
+date: 2026-03-09
 layout: post
 categories: ["Dev"]
 description: a events aggregator for Coventry
-thumbnail: "/assets/images/west-orchards-lol.jpg"
-image: "/assets/images/west-orchards-lol.jpg"
+thumbnail: /assets/images/west-orchards-lol.jpg
+image: /assets/images/west-orchards-lol.jpg
 ---
 
 Two things drove this. One is that I travel around the country on a narrowboat, and finding out what's on - community events, local arts, that sort of thing - is genuinely hard. Everything is in a different place, formatted differently, and half the time you find out about something good the day after it happened. It used to be quite easy on facebook in its 2010-ish peak, but it's pretty useless now.
@@ -65,5 +65,10 @@ It's a work in progress, not ready for anything I'd call live. The data is messy
 But the goal is pretty simple: if you live in Coventry and want to know what's happening this weekend, you should be able to find out without trawling twenty different websites, and without a generic events platform showing you a Take That cover band playing in Hereford in April.
 
 Longer term I want to open it up and get it consistent, and show events beyond Coventry.
+
+## edit: changed the domain
+
+_28 April 2026_
+I've moved the domain over to cov.live. The previous one was marked as hosting malware, and despite many efforts to speak to various """security""" vendors, they refused to remove the categorisation. So it wouldn't load through EE UK or Virgin media ISPs, which was a problem. I solved it by moving domains.
 
 The code will probably end up on GitHub at some point once it's a bit less embarrassing!
