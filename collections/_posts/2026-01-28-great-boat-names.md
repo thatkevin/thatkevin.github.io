@@ -10,8 +10,8 @@ image: /assets/images/paste-1777397778096.png
 I live on a narrowboat, which I'm sure you'll agree is incredible unique and kooky of me. Here's some fantastic boat names I've come across:
 
 <picture>
-  <source srcset="/assets/images/friendship-boat-480w.webp 480w, /assets/images/friendship-boat-720w.webp 720w, /assets/images/friendship-boat-1200w.webp 1200w" sizes="100vw">
-  <img src="/assets/images/friendship-boat-1200w.webp" alt="paste-1777397730012.png">
+  <source srcset="/assets/images/friendship-narrowboat-480w.webp 480w, /assets/images/friendship-narrowboat-720w.webp 720w, /assets/images/friendship-narrowboat-1200w.webp 1200w" sizes="100vw">
+  <img src="/assets/images/friendship-narrowboat-1200w.webp" alt="paste-1777397730012.png">
 </picture>
 
 <picture>
