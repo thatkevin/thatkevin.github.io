@@ -27,6 +27,8 @@ I've made a static JS app at [pager.kev.cc](pager.kev.cc). It's a pure JS app, n
 
 You can authenticate with a GH personal access token, stored in local storage, or I've put a cloudflare worker to handle a GitHub device login.
 
+![Screenshot of PAGER](/assets/images/paste-1777378709042.png)
+
 ## The tech
 
 Everything runs client-side because GitHub's API supports CORS, so you can `fetch` from it directly in a browser. Writing a file is one API call, you send the content base64-encoded with a commit message and a real git commit appears in the repo.
