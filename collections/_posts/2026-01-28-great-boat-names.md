@@ -55,8 +55,8 @@ I live on a narrowboat, which is very unique and kooky of me. Here's some fantas
 </picture>
 
 <picture>
-  <source srcset="/assets/images/paste-1777397795472-480w.webp 480w, /assets/images/paste-1777397795472-720w.webp 720w, /assets/images/paste-1777397795472-1200w.webp 1200w" sizes="100vw">
-  <img src="/assets/images/paste-1777397795472-1200w.webp" alt="paste-1777397795472.png">
+  <source srcset="/assets/images/biddie-narrowboat-480w.webp 480w, /assets/images/biddie-narrowboat-720w.webp 720w, /assets/images/biddie-narrowboat-1200w.webp 1200w" sizes="100vw">
+  <img src="/assets/images/biddie-narrowboat-1200w.webp" alt="biddie-narrowboat.png">
 </picture>
 
 <picture>
