@@ -12,7 +12,9 @@ layout: default
   {% endfor %}
 
   {% if site.posts.size > site.paginate %}
-    <a href="/blog/page2">More posts…</a>
+    <div class="flex justify-center py-12">
+      <a class="text-4xl md:text-6xl font-bold cursor-pointer hover:opacity-70 transition duration-300" href="/blog/page2">More posts…</a>
+    </div>
   {% endif %}
 </main>
 

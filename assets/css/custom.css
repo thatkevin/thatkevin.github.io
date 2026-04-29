@@ -38,6 +38,11 @@ body {
    Gallery layout
    ================================================ */
 
+#menu-trigger,
+#menu-close {
+  cursor: pointer;
+}
+
 .gallery-progress {
   position: fixed;
   top: 0;
