@@ -35,8 +35,8 @@ I live on a narrowboat, which is very unique and kooky of me. Here's some fantas
 </picture>
 
 <picture>
-  <source srcset="/assets/images/paste-1777413789467-480w.webp 480w, /assets/images/paste-1777413789467-720w.webp 720w, /assets/images/paste-1777413789467-1200w.webp 1200w" sizes="100vw">
-  <img src="/assets/images/paste-1777413789467-1200w.webp" alt="paste-1777413789467.webp">
+  <source srcset="/assets/images/boat-craggy-island-480w.webp 480w, /assets/images/boat-craggy-island-720w.webp 720w, /assets/images/boat-craggy-island-1200w.webp 1200w" sizes="100vw">
+  <img src="/assets/images/boat-craggy-island-1200w.webp" alt="boat-craggy-island.webp">
 </picture>
 
 <picture>
