@@ -8,7 +8,7 @@ thumbnail: /assets/images/west-orchards-lol.jpg
 image: /assets/images/west-orchards-lol.jpg
 ---
 
-Two things drove this. One is that I travel around the country on a narrowboat, and finding out what's on - community events, local arts, that sort of thing - is genuinely hard. Everything is in a different place, formatted differently, and half the time you find out about something good the day after it happened. It used to be quite easy on facebook in its 2010-ish peak, but it's pretty useless now.
+Two things drove this. One is that I travel around the country on a narrowboat, and finding out what's on in, say Leighton Buzzard or Beeston - community events, local arts, that sort of thing - is hard. Everything is in a different place, formatted differently, and half the time you find out about something good the day after it happened. It used to be quite easy on facebook in its 2010-ish peak, but it's pretty useless now.
 
 The other is [u/HadjiChippoSafri](https://www.reddit.com/user/HadjiChippoSafri) on /r/coventry, who posts a weekly "What's On" thread and has done for years. It's a useful thing and it's part of what inspired this. 
 
