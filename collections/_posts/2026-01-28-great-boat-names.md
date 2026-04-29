@@ -77,8 +77,8 @@ The following are my all-time faves:
 </picture>
 
 <picture>
-  <source srcset="/assets/images/paste-1777414205688-480w.webp 480w, /assets/images/paste-1777414205688-720w.webp 720w, /assets/images/paste-1777414205688-1200w.webp 1200w" sizes="100vw">
-  <img src="/assets/images/paste-1777414205688-1200w.webp" alt="paste-1777414205688.webp">
+  <source srcset="/assets/images/die-hard-boat-480w.webp 480w, /assets/images/die-hard-boat-720w.webp 720w, /assets/images/die-hard-boat-1200w.webp 1200w" sizes="100vw">
+  <img src="/assets/images/die-hard-boat-1200w.webp" alt="die-hard-boat.webp">
 </picture>
 
 OK, that's the end of the boat post 
