@@ -1,12 +1,14 @@
 ---
-title: "Sub five pound pints in trendy East London"
-date: 2023-01-30T00:00:00+
+title: Sub five pound pints in trendy East London
+date: 2023-01-30
 layout: post
 categories: ["Bev"]
 description: It's possible.
-thumbnail: "/assets/images/cheap-lager.jpg"
-image: "/assets/images/cheap-lager.jpg"
+thumbnail: /assets/images/cheap-lager.jpg
+image: /assets/images/cheap-lager.jpg
 ---
+
+### update march 2026: this post is a relic of a time gone by, any information is purely for historians
 
 ## "Work" in progress
 

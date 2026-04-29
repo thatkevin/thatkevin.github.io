@@ -3,12 +3,12 @@ title: "cov.live: an events aggregator for Coventry"
 date: 2026-03-09
 layout: post
 categories: ["Dev"]
-description: a events aggregator for Coventry
+description: an events aggregator for Coventry
 thumbnail: /assets/images/west-orchards-lol.jpg
 image: /assets/images/west-orchards-lol.jpg
 ---
 
-Two things drove this. One is that I travel around the country on a narrowboat, and finding out what's on - community events, local arts, that sort of thing - is genuinely hard. Everything is in a different place, formatted differently, and half the time you find out about something good the day after it happened. It used to be quite easy on facebook in its 2010-ish peak, but it's pretty useless now.
+Two things drove this. One is that I travel around the country on a narrowboat, and finding out what's on in, say Leighton Buzzard or Beeston - community events, local arts, that sort of thing - is hard. Everything is in a different place, formatted differently, and half the time you find out about something good the day after it happened. It used to be quite easy on facebook in its 2010-ish peak, but it's pretty useless now.
 
 The other is [u/HadjiChippoSafri](https://www.reddit.com/user/HadjiChippoSafri) on /r/coventry, who posts a weekly "What's On" thread and has done for years. It's a useful thing and it's part of what inspired this. 
 
@@ -26,6 +26,8 @@ None of it talks to each other. You have to know where to look, and most people 
 ## The name
 
 Someone from Coventry is known as a 'coventrian' or, informally, a 'cov kid'. So I'm hoping the domain name works!
+
+![paste-1777403060732.webp](/assets/images/cov-kids.webp)
 
 ## What I built
 
@@ -69,6 +71,6 @@ Longer term I want to open it up and get it consistent, and show events beyond C
 ## edit: changed the domain
 
 _28 April 2026_
-I've moved the domain over to cov.live. The previous one was marked as hosting malware, and despite many efforts to speak to various """security""" vendors, they refused to remove the categorisation. So it wouldn't load through EE UK or Virgin media ISPs, which was a problem. I solved it by moving domains.
+I've moved the domain over to [cov.live](https://cov.live/). The previous one was marked as hosting malware, and despite many efforts to speak to various """security""" vendors, they refused to remove the categorisation. Turns out it was previously used to host covid stats, and then fell into disrepair. So it wouldn't load through EE UK or Virgin media ISPs, which was a problem. I solved it by moving domains.
 
-The code will probably end up on GitHub at some point once it's a bit less embarrassing!
+The code will probably end up on GitHub at some point once I've got it working well
