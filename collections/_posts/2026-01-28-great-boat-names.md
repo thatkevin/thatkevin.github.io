@@ -60,8 +60,8 @@ I live on a narrowboat, which is very unique and kooky of me. Here's some fantas
 </picture>
 
 <picture>
-  <source srcset="/assets/images/paste-1777397813940-480w.webp 480w, /assets/images/paste-1777397813940-720w.webp 720w, /assets/images/paste-1777397813940-1200w.webp 1200w" sizes="100vw">
-  <img src="/assets/images/paste-1777397813940-1200w.webp" alt="paste-1777397813940.png">
+  <source srcset="/assets/images/russia-480w.webp 480w, /assets/images/russia-720w.webp 720w, /assets/images/russia-1200w.webp 1200w" sizes="100vw">
+  <img src="/assets/images/russia-1200w.webp" alt="russia.png">
 </picture>
 
 <picture>
