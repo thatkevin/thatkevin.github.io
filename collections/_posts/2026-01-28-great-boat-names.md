@@ -65,8 +65,8 @@ I live on a narrowboat, which is very unique and kooky of me. Here's some fantas
 </picture>
 
 <picture>
-  <source srcset="/assets/images/paste-1777397856194-480w.webp 480w, /assets/images/paste-1777397856194-720w.webp 720w, /assets/images/paste-1777397856194-1200w.webp 1200w" sizes="100vw">
-  <img src="/assets/images/paste-1777397856194-1200w.webp" alt="paste-1777397856194.png">
+  <source srcset="/assets/images/keeping-up-with-the-joneses-boat-480w.webp 480w, /assets/images/keeping-up-with-the-joneses-boat-720w.webp 720w, /assets/images/keeping-up-with-the-joneses-boat-1200w.webp 1200w" sizes="100vw">
+  <img src="/assets/images/keeping-up-with-the-joneses-boat-1200w.webp" alt="keeping-up-with-the-joneses-boat.png">
 </picture>
 
 The following are my all-time faves:
