@@ -1,0 +1,94 @@
+---
+layout: extension
+title: "Since When?! — Privacy Policy"
+description: "Privacy policy for the Since When?! Chrome extension."
+---
+
+<style>
+  :root {
+    --sw-green: #0d4a26;
+    --sw-cream: #f0ece2;
+  }
+
+  .sw-policy-hero {
+    background: var(--sw-cream);
+    padding: 56px 24px 48px;
+    text-align: center;
+  }
+
+  .sw-policy-hero a {
+    display: inline-block;
+    margin-bottom: 24px;
+    font-size: 0.875rem;
+    color: var(--sw-green);
+    text-decoration: none;
+    opacity: 0.7;
+  }
+
+  .sw-policy-hero a:hover { opacity: 1; }
+
+  .sw-policy-hero h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--sw-green);
+    margin: 0 0 8px;
+  }
+
+  .sw-policy-hero p {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  .sw-policy-body {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+  }
+
+  .sw-policy-body h2 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--sw-green);
+    margin: 36px 0 10px;
+  }
+
+  .sw-policy-body p, .sw-policy-body ul {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.75;
+    margin: 0 0 12px;
+  }
+
+  .sw-policy-body ul { padding-left: 20px; }
+</style>
+
+<div class="sw-policy-hero">
+  <a href="/since-when/">← Since When?!</a>
+  <h1>Privacy Policy</h1>
+  <p>Last updated: 1 May 2026</p>
+</div>
+
+<div class="sw-policy-body">
+  <p>Since When?! is a Chrome extension that adds creator information to Google Calendar event popups. This policy explains what data it accesses and what happens with it.</p>
+
+  <h2>What we access</h2>
+  <p>When you click a calendar event, Since When?! makes a request to the Google Calendar API to retrieve the event's creator name, email address, and creation timestamp. This requires read-only access to your Google Calendar data, granted via Google OAuth.</p>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>We do not store any calendar data</li>
+    <li>We do not send data to any server other than Google's own Calendar API</li>
+    <li>We do not track usage, clicks, or behaviour</li>
+    <li>We do not have a backend — the extension runs entirely in your browser</li>
+  </ul>
+
+  <h2>Local caching</h2>
+  <p>Event creator details are cached in memory for up to 5 minutes to avoid repeated API calls during a session. This cache is cleared when the browser tab is closed. Nothing is written to disk or synced.</p>
+
+  <h2>OAuth token</h2>
+  <p>Your Google OAuth token is managed by Chrome's built-in identity API. It is not stored or accessible by Since When?! directly — Chrome handles token storage and refresh.</p>
+
+  <h2>Contact</h2>
+  <p>Questions? <a href="mailto:me@kev.cc" style="color: var(--sw-green)">me@kev.cc</a></p>
+</div>
