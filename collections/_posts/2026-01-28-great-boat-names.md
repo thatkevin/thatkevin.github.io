@@ -40,8 +40,8 @@ I live on a narrowboat, which is very unique and kooky of me. Here's some fantas
 </picture>
 
 <picture>
-  <source srcset="/assets/images/paste-1777413566240-480w.webp 480w, /assets/images/paste-1777413566240-720w.webp 720w, /assets/images/paste-1777413566240-1200w.webp 1200w" sizes="100vw">
-  <img src="/assets/images/paste-1777413566240-1200w.webp" alt="paste-1777413566240.webp">
+  <source srcset="/assets/images/terror-narrowboat-480w.webp 480w, /assets/images/terror-narrowboat-720w.webp 720w, /assets/images/terror-narrowboat-1200w.webp 1200w" sizes="100vw">
+  <img src="/assets/images/terror-narrowboat-1200w.webp" alt="terror-narrowboat.webp">
 </picture>
 
 <picture>
@@ -55,18 +55,18 @@ I live on a narrowboat, which is very unique and kooky of me. Here's some fantas
 </picture>
 
 <picture>
-  <source srcset="/assets/images/paste-1777397795472-480w.webp 480w, /assets/images/paste-1777397795472-720w.webp 720w, /assets/images/paste-1777397795472-1200w.webp 1200w" sizes="100vw">
-  <img src="/assets/images/paste-1777397795472-1200w.webp" alt="paste-1777397795472.png">
+  <source srcset="/assets/images/biddie-narrowboat-480w.webp 480w, /assets/images/biddie-narrowboat-720w.webp 720w, /assets/images/biddie-narrowboat-1200w.webp 1200w" sizes="100vw">
+  <img src="/assets/images/biddie-narrowboat-1200w.webp" alt="biddie-narrowboat.png">
 </picture>
 
 <picture>
-  <source srcset="/assets/images/paste-1777397813940-480w.webp 480w, /assets/images/paste-1777397813940-720w.webp 720w, /assets/images/paste-1777397813940-1200w.webp 1200w" sizes="100vw">
-  <img src="/assets/images/paste-1777397813940-1200w.webp" alt="paste-1777397813940.png">
+  <source srcset="/assets/images/russia-480w.webp 480w, /assets/images/russia-720w.webp 720w, /assets/images/russia-1200w.webp 1200w" sizes="100vw">
+  <img src="/assets/images/russia-1200w.webp" alt="russia.png">
 </picture>
 
 <picture>
-  <source srcset="/assets/images/paste-1777397856194-480w.webp 480w, /assets/images/paste-1777397856194-720w.webp 720w, /assets/images/paste-1777397856194-1200w.webp 1200w" sizes="100vw">
-  <img src="/assets/images/paste-1777397856194-1200w.webp" alt="paste-1777397856194.png">
+  <source srcset="/assets/images/keeping-up-with-the-joneses-boat-480w.webp 480w, /assets/images/keeping-up-with-the-joneses-boat-720w.webp 720w, /assets/images/keeping-up-with-the-joneses-boat-1200w.webp 1200w" sizes="100vw">
+  <img src="/assets/images/keeping-up-with-the-joneses-boat-1200w.webp" alt="keeping-up-with-the-joneses-boat.png">
 </picture>
 
 The following are my all-time faves:
@@ -77,8 +77,8 @@ The following are my all-time faves:
 </picture>
 
 <picture>
-  <source srcset="/assets/images/paste-1777414205688-480w.webp 480w, /assets/images/paste-1777414205688-720w.webp 720w, /assets/images/paste-1777414205688-1200w.webp 1200w" sizes="100vw">
-  <img src="/assets/images/paste-1777414205688-1200w.webp" alt="paste-1777414205688.webp">
+  <source srcset="/assets/images/die-hard-boat-480w.webp 480w, /assets/images/die-hard-boat-720w.webp 720w, /assets/images/die-hard-boat-1200w.webp 1200w" sizes="100vw">
+  <img src="/assets/images/die-hard-boat-1200w.webp" alt="die-hard-boat.webp">
 </picture>
 
 OK, that's the end of the boat post 

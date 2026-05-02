@@ -1,17 +1,20 @@
 ---
-title: "Sainsburys Design Studio"
-date: 2023-06-10T00:00:00+
+title: Sainsburys Design Studio
+date: 2023-06-10
 layout: gallery
 categories: ["Design", "Talks"]
 description: A talk I did for Unboxed's design club on a supermarkets Design Studio
-thumbnail: "/assets/images/j-sainsbury.jpg"
-image: "/assets/images/j-sainsbury.jpg"
+thumbnail: /assets/images/j-sainsbury.jpg
+image: /assets/images/j-sainsbury.jpg
 ---
 
 ![J Sainsburys](/assets/2023-06-10-sainsburys/images/1.jpg)
 _The J Sainsbury logo, used throughout the late 20th century_
 
-![A larder, packed with tins and miscellany goods](/assets/2023-06-10-sainsburys/images/2.jpg)
+<picture>
+  <source srcset="/assets/2023-06-10-sainsburys/images/2-480w.webp 480w, /assets/2023-06-10-sainsburys/images/2-720w.webp 720w, /assets/2023-06-10-sainsburys/images/2-960w.webp 960w" sizes="100vw">
+  <img src="/assets/2023-06-10-sainsburys/images/2-960w.webp" alt="A larder, packed with tins and miscellany goods">
+</picture>
 
 I lived with my Grandma for a while in my mid twenties. She maintained a scullery, or larder, that largely looked like this. A small room that you could stand in and be absorbed by late twentieth century packaged foods and household goods. I loved it in there. When Grandma was feeling a bit flash, she would go to Sainsburys in Trinity Street, Coventry city centre. The larder would be dotted with stacked Sainsburys goods. She had a lot of these labels stored away. Neatly folded, groovy, interesting looking, fun, and very retro, and all from one brand - J Sainsbury, Stamford Street, SE1, London.
 
