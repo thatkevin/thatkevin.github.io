@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <title>
+  
+    PAGER, and testing with Mark Corrigan
+    -
+    Kevin Sedgley
+  
+</title>
+
+
+  <meta name="description" content="How I posted this post"/>
+
+
+<meta property="og:title" content="PAGER, and testing with Mark Corrigan"/>
+
+<meta content="website" property="og:type"/>
+<meta property="og:url" content="/blog/2026-04-27-testing-with-mark"/>
+
+  <meta property="og:image" content="https://kev.cc/jekyll-atlantic-theme/assets/images/mark-corrigan-is-angry.jpg"/>
+  
+<meta property="og:description" content="How I posted this post"/>
+
+<meta content="summary" name="twitter:card"/>
+
+
+
+    <link rel="icon" href="/jekyll-atlantic-theme/favicon.png">
+    <link href="/jekyll-atlantic-theme/assets/css/style.min.css" rel="stylesheet">
+    <link href="/jekyll-atlantic-theme/assets/css/custom.min.css" rel="stylesheet">
+  </head>
+  <body class="page ">
+    <div id="menu-container"
+  class="bg-blue-600 h-screen w-screen fixed z-50 flex-col bg-gradient-to-b from-green-400 to-blue-500 opacity-95 overflow-hidden hidden">
+  <div class="container mx-auto px-6 md:px-4">
+    <header class="flex items-center justify-between py-6">
+      <div class="invisible">
+        <div class="logo hidden md:block">
+  <a class="flex items-center hover:opacity-70 transition duration-300 ease-in-out" href="/">
+    
+    <img class="mr-2" height="36px" width="36px"
+      alt="Kevin Sedgley Logo" src="/jekyll-atlantic-theme/assets/images/logo/logo.svg" />
+    
+    
+    <h2 class="text-2xl font-sans font-semibold"><strong>Home.</strong></h2>
+    
+  </a>
+</div>
+<div class="logo-mobile block md:hidden">
+  <a class="flex items-center hover:opacity-70 transition duration-300 ease-in-out" href="/">
+    
+    <img height="36px" width="36px"
+      alt="Kevin Sedgley Logo" src="/jekyll-atlantic-theme/assets/images/logo/logo-mobile.svg" />
+    
+    
+    <h2 class="text-2xl font-sans font-semibold"></h2>
+    
+  </a>
+</div>
+      </div>
+      <div class="cursor-pointer" id="menu-close">
+        <svg aria-hidden="true" focusable="false" class="h-6 text-white" role="img" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 352 512">
+          <path fill="currentColor"
+            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+          </path>
+        </svg>
+      </div>
+    </header>
+  </div>
+  <div class="flex-grow flex flex-col items-center justify-center text-center text-white font-bold">
+    
+    <a class="py-4 text-4xl md:text-6xl" href="/">Home</a>
+    
+    <a class="py-4 text-4xl md:text-6xl" href="/blog/">Blog</a>
+    
+    <a class="py-4 text-4xl md:text-6xl" href="/about">About</a>
+    
+  </div>
+</div>
+    <div class="container mx-auto px-6 md:px-4">
+      <header class="flex items-center justify-between py-6">
+  <div class="logo hidden md:block">
+  <a class="flex items-center hover:opacity-70 transition duration-300 ease-in-out" href="/">
+    
+    <img class="mr-2" height="36px" width="36px"
+      alt="Kevin Sedgley Logo" src="/jekyll-atlantic-theme/assets/images/logo/logo.svg" />
+    
+    
+    <h2 class="text-2xl font-sans font-semibold"><strong>Home.</strong></h2>
+    
+  </a>
+</div>
+<div class="logo-mobile block md:hidden">
+  <a class="flex items-center hover:opacity-70 transition duration-300 ease-in-out" href="/">
+    
+    <img height="36px" width="36px"
+      alt="Kevin Sedgley Logo" src="/jekyll-atlantic-theme/assets/images/logo/logo-mobile.svg" />
+    
+    
+    <h2 class="text-2xl font-sans font-semibold"></h2>
+    
+  </a>
+</div>
+  <div class="cursor-pointer" id="menu-trigger">
+    <svg aria-hidden="true" class="text-black" data-icon="bars" data-prefix="fas" focusable="false" height="24"
+      role="img" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+        fill="currentColor"></path>
+    </svg>
+  </div>
+</header>
+      
+
+
+
+
+
+<div class="py-6 md:py-12 lg:w-10/12 md:text-center mx-auto">
+  
+  <div class="font-medium text-gray-700">27 April 2026</div>
+  
+  <h1 class="heading text-4xl md:text-6xl font-bold font-sans md:leading-tight">
+    
+      PAGER, and testing with Mark Corrigan
+    
+  </h1>
+  
+  <h2 class="text-xl text-gray-600 mt-2">How I posted this post</h2>
+  
+</div>
+
+
+
+
+
+  <img width="1600" height="900" src="/assets/images/mark-corrigan-is-angry.jpg" alt='mark corrigan is angry' />
+
+<div class="flex flex-col md:flex-row py-6 md:py-12">
+
+  <div class="w-full md:w-3/12 pr-3">
+    
+
+    
+      <div class="hidden md:block">
+        
+          <a class="p-1 px-3 mr-1 mb-1 inline-block text-xs font-mono rounded bg-green-200 text-green-800 hover:bg-blue-200 hover:text-blue-800 transition duration-300 ease-in-out" href="/jekyll-atlantic-theme/slash/dev">Dev</a>
+        
+          <a class="p-1 px-3 mr-1 mb-1 inline-block text-xs font-mono rounded bg-green-200 text-green-800 hover:bg-blue-200 hover:text-blue-800 transition duration-300 ease-in-out" href="/jekyll-atlantic-theme/slash/cms-test">CMS Test</a>
+        
+      </div>
+    
+  </div>
+
+  <div class="w-full md:w-9/12">
+    <div class="prose">
+      <p>I don’t post to this website enough. Posting involves opening a terminal, which means I’m already in “work mode”, which means it stops feeling like writing and starts feeling like a task.</p>
+
+<p>The fix is cutting the number of steps between “I have something to write” and “it’s live”</p>
+
+<h2 id="github-pages">Github pages</h2>
+
+<p>It’s hosted on Github pages, mainly because it’s free, I’m a cheapskate, and I don’t have to maintain it. that’s my day job, not what I want to do more of in my fun time. If you have <a href="https://jekyllrb.com/">Jekyll</a> on it, you are just editing markdown files.</p>
+
+<h2 id="what-i-wanted">What I wanted</h2>
+
+<p>Open a browser, write something. Add a photo if I have one. Save it, and done.</p>
+
+<p>No terminal, no git commands, no resizing images in a separate app</p>
+
+<h2 id="what-i-built">What I built</h2>
+
+<p>I’ve made a static JS app called <a href="pager.kev.cc">PAGER</a>. It’s a pure JS app, no backend, runs entirely in the browser, and it talks to GitHub directly. It lists any Jekyll-style markdown posts in the repo, lets me edit them with a preview next to the markdown, and handles photos. When I hit save it commits to the repo and the post goes live.</p>
+
+<p>You can authenticate with a GH personal access token, stored in local storage, or I’ve put a cloudflare worker to handle a GitHub device login.</p>
+
+<p><img src="/assets/images/paste-1777378709042.png" alt="Screenshot of PAGER" /></p>
+
+<h2 id="the-tech">The tech</h2>
+
+<p>Everything runs client-side because GitHub’s API supports CORS, so you can <code class="language-plaintext highlighter-rouge">fetch</code> from it directly in a browser. Writing a file is one API call, you send the content base64-encoded with a commit message and a real git commit appears in the repo.</p>
+
+<p>Photos get resized in the browser before upload using <code class="language-plaintext highlighter-rouge">OffscreenCanvas</code>, then committed to <code class="language-plaintext highlighter-rouge">assets/images/</code>.</p>
+
+<p>It (also) runs straight off GitHub Pages, or wherever you host your static html.</p>
+
+<h2 id="the-code">The code</h2>
+
+<p>It’s at <a href="https://github.com/thatkevin/pager">github/PAGER</a> and the auth repo is at <a href="https://github.com/thatkevin/pager-auth">github/PAGER AUTH</a>.</p>
+
+<h2 id="why-mark-corrigan">Why Mark Corrigan?</h2>
+
+<p>Er, it was the first picture I found, so he’s making a guest appearance</p>
+
+<p>This post was written in it, and this is a test post!</p>
+
+    </div>
+    <small style="display:none"><a href="https://github.com/thatkevin/thatkevin.github.io/blob/master/collections/_posts/2026-04-27-testing-with-mark.md">🍽️</small>
+  </div>
+
+</div>
+
+
+  <div class="py-6 mt-6 border-t-2 block md:hidden">
+    <h3 class="text-sm font-medium mb-1">Categories</h3>
+    <div>
+      
+        <a class="p-1 px-3 mr-1 mb-1 inline-block text-xs font-mono rounded bg-green-200 text-green-800 hover:bg-blue-200 hover:text-blue-800 transition duration-300 ease-in-out" href="/jekyll-atlantic-theme/slash/dev">Dev</a>
+      
+        <a class="p-1 px-3 mr-1 mb-1 inline-block text-xs font-mono rounded bg-green-200 text-green-800 hover:bg-blue-200 hover:text-blue-800 transition duration-300 ease-in-out" href="/jekyll-atlantic-theme/slash/cms-test">CMS Test</a>
+      
+    </div>
+  </div>
+ 
+      <footer class="py-6 border-t-2">
+  <div class="container mx-auto">
+    <div class="flex mb-2">
+      
+      <a class="py-2 mr-2" href="https://github.com/thatkevin" rel="me"><img width="24" height="24" src="/assets/images/logo/github.svg" alt="Github" /></a>
+      
+      <a class="py-2 mr-2" href="https://bsky.app/profile/kev.cc" rel="me"><img width="24" height="24" src="/assets/images/logo/bluesky.svg" alt="Bluesky" /></a>
+      
+      <a class="py-2 mr-2" href="https://linkedin.com/in/thatkevin" rel="me"><img width="24" height="24" src="/assets/images/logo/linkedin.svg" alt="Linkedin" /></a>
+      
+    </div>
+</footer>
+
+
+    </div>
+    <script type="text/javascript" src="/jekyll-atlantic-theme/assets/js/hamburger.js"></script>
+  </body>
+</html>

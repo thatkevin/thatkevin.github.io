@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>
+  
+    Since When?!
+    -
+    Kevin Sedgley
+  
+</title>
+
+
+  <meta name="description" content="Find out when a Google Calendar event was created - right in the pop-up"/>
+
+
+<meta property="og:title" content="Since When?!"/>
+
+<meta content="website" property="og:type"/>
+<meta property="og:url" content="/since-when/"/>
+
+  <meta property="og:image" content="https://kev.cc/jekyll-atlantic-theme/assets/images/since-when-icon.png"/>
+  
+<meta property="og:description" content="Find out when a Google Calendar event was created - right in the pop-up"/>
+
+<meta content="summary" name="twitter:card"/>
+
+
+    <link rel="icon" href="/jekyll-atlantic-theme/favicon.png">
+    <link href="/jekyll-atlantic-theme/assets/css/style.min.css" rel="stylesheet">
+    <link href="/jekyll-atlantic-theme/assets/css/custom.min.css" rel="stylesheet">
+  </head>
+  <body class="page extension-page">
+    <div id="menu-container"
+  class="bg-blue-600 h-screen w-screen fixed z-50 flex-col bg-gradient-to-b from-green-400 to-blue-500 opacity-95 overflow-hidden hidden">
+  <div class="container mx-auto px-6 md:px-4">
+    <header class="flex items-center justify-between py-6">
+      <div class="invisible">
+        <div class="logo hidden md:block">
+  <a class="flex items-center hover:opacity-70 transition duration-300 ease-in-out" href="/">
+    
+    <img class="mr-2" height="36px" width="36px"
+      alt="Kevin Sedgley Logo" src="/jekyll-atlantic-theme/assets/images/logo/logo.svg" />
+    
+    
+    <h2 class="text-2xl font-sans font-semibold"><strong>Home.</strong></h2>
+    
+  </a>
+</div>
+<div class="logo-mobile block md:hidden">
+  <a class="flex items-center hover:opacity-70 transition duration-300 ease-in-out" href="/">
+    
+    <img height="36px" width="36px"
+      alt="Kevin Sedgley Logo" src="/jekyll-atlantic-theme/assets/images/logo/logo-mobile.svg" />
+    
+    
+    <h2 class="text-2xl font-sans font-semibold"></h2>
+    
+  </a>
+</div>
+      </div>
+      <div class="cursor-pointer" id="menu-close">
+        <svg aria-hidden="true" focusable="false" class="h-6 text-white" role="img" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 352 512">
+          <path fill="currentColor"
+            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+          </path>
+        </svg>
+      </div>
+    </header>
+  </div>
+  <div class="flex-grow flex flex-col items-center justify-center text-center text-white font-bold">
+    
+    <a class="py-4 text-4xl md:text-6xl" href="/">Home</a>
+    
+    <a class="py-4 text-4xl md:text-6xl" href="/blog/">Blog</a>
+    
+    <a class="py-4 text-4xl md:text-6xl" href="/about">About</a>
+    
+  </div>
+</div>
+    <div class="container mx-auto px-6 md:px-4">
+      <header class="flex items-center justify-between py-6">
+  <div class="logo hidden md:block">
+  <a class="flex items-center hover:opacity-70 transition duration-300 ease-in-out" href="/">
+    
+    <img class="mr-2" height="36px" width="36px"
+      alt="Kevin Sedgley Logo" src="/jekyll-atlantic-theme/assets/images/logo/logo.svg" />
+    
+    
+    <h2 class="text-2xl font-sans font-semibold"><strong>Home.</strong></h2>
+    
+  </a>
+</div>
+<div class="logo-mobile block md:hidden">
+  <a class="flex items-center hover:opacity-70 transition duration-300 ease-in-out" href="/">
+    
+    <img height="36px" width="36px"
+      alt="Kevin Sedgley Logo" src="/jekyll-atlantic-theme/assets/images/logo/logo-mobile.svg" />
+    
+    
+    <h2 class="text-2xl font-sans font-semibold"></h2>
+    
+  </a>
+</div>
+  <div class="cursor-pointer" id="menu-trigger">
+    <svg aria-hidden="true" class="text-black" data-icon="bars" data-prefix="fas" focusable="false" height="24"
+      role="img" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+        fill="currentColor"></path>
+    </svg>
+  </div>
+</header>
+    </div>
+    <style>
+  @font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('fonts/dm-sans.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('fonts/dm-sans-italic.woff2') format('woff2');
+  }
+</style>
+
+<style>
+  :root {
+    --sw-green: #0d4a26;
+    --sw-green-hover: #0a3b1e;
+    --sw-cream: #f0ece2;
+    --sw-cream-dark: #e5e0d4;
+    --sw-text: #1a2e1e;
+    --sw-text-mid: #3c5a42;
+    --sw-text-muted: #5a7a63;
+  }
+
+  .sw-hero, .sw-problem, .sw-mockup-section, .sw-how, .sw-privacy, .sw-cta {
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .sw-container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  /* ── Hero ── */
+  .sw-hero {
+    background: var(--sw-cream);
+    text-align: center;
+    padding: 80px 24px 72px;
+  }
+
+  .sw-hero img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 28px;
+    display: block;
+  }
+
+  .sw-hero h1 {
+    font-size: clamp(2.4rem, 6vw, 4rem);
+    font-weight: 800;
+    color: var(--sw-green);
+    margin: 0 0 16px;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+
+  .sw-hero p {
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    color: var(--sw-text-mid);
+    max-width: 480px;
+    margin: 0 auto 36px;
+    line-height: 1.6;
+  }
+
+  .sw-btn-primary {
+    display: inline-block;
+    background: var(--sw-green);
+    color: var(--sw-cream) !important;
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none !important;
+    transition: background 0.15s;
+    letter-spacing: 0.01em;
+  }
+
+  .sw-btn-primary:hover { background: var(--sw-green-hover); }
+
+  .sw-btn-store {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--sw-green);
+    color: var(--sw-cream) !important;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none !important;
+    transition: background 0.15s;
+    margin-bottom: 12px;
+  }
+
+  .sw-btn-store:hover { background: var(--sw-green-hover); }
+
+  .sw-btn-store svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  .sw-btn-secondary-link {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--sw-text-muted);
+    text-decoration: none;
+    margin-top: 4px;
+  }
+
+  .sw-btn-secondary-link:hover { text-decoration: underline; color: var(--sw-green); }
+
+  /* ── Problem ── */
+  .sw-problem {
+    background: var(--sw-cream-dark);
+    padding: 72px 24px;
+  }
+
+  .sw-problem .sw-container {
+    max-width: 640px;
+    text-align: center;
+  }
+
+  .sw-problem h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--sw-green);
+    margin: 0 0 20px;
+  }
+
+  .sw-problem p {
+    color: var(--sw-text-mid);
+    font-size: 1.05rem;
+    line-height: 1.75;
+    margin: 0 0 16px;
+  }
+
+  /* ── Mockup ── */
+  .sw-mockup-section {
+    background: var(--sw-green);
+    padding: 72px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .sw-mockup-label {
+    color: var(--sw-cream);
+    opacity: 0.7;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    text-align: center;
+  }
+
+  .sw-popup {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.35);
+    width: 100%;
+    max-width: 340px;
+    overflow: hidden;
+    font-family: "Google Sans", Roboto, sans-serif;
+  }
+
+  .sw-popup-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 8px 0;
+    gap: 4px;
+  }
+
+  .sw-popup-toolbar button {
+    border: none;
+    background: transparent;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #5f6368;
+  }
+
+  .sw-popup-toolbar button:hover { background: #f1f3f4; }
+
+  .sw-popup-body { padding: 4px 20px 16px; }
+
+  .sw-ev-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3c4043;
+    margin: 8px 0 16px;
+  }
+
+  .sw-ev-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #3c4043;
+  }
+
+  .sw-ev-icon {
+    font-size: 16px;
+    width: 20px;
+    flex-shrink: 0;
+    text-align: center;
+    margin-top: 1px;
+  }
+
+  /* ── Injected box (matches real .sw-box) ── */
+  .sw-injected-box {
+    margin: 12px 0 4px;
+    padding: 10px 12px;
+    background: var(--sw-cream);
+    border-radius: 8px;
+    font-size: 13px;
+    color: var(--sw-text);
+  }
+
+  .sw-inj-branding {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(13, 74, 38, 0.15);
+  }
+
+  .sw-inj-branding-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .sw-inj-brand-name {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--sw-green);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .sw-inj-find {
+    font-size: 11px;
+    color: var(--sw-green);
+    text-decoration: none;
+    opacity: 0.75;
+  }
+
+  .sw-inj-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .sw-inj-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    min-height: 22px;
+  }
+
+  .sw-inj-icon {
+    font-size: 14px;
+    width: 18px;
+    text-align: center;
+    flex-shrink: 0;
+    color: var(--sw-green);
+    margin-top: 1px;
+    line-height: 1.4;
+  }
+
+  .sw-inj-text { display: flex; flex-direction: column; line-height: 1.4; }
+
+  .sw-inj-label {
+    font-size: 10px;
+    color: var(--sw-text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+
+  .sw-inj-value { color: var(--sw-text); }
+
+  .sw-inj-email {
+    color: var(--sw-text-muted);
+    font-size: 11px;
+  }
+
+  /* ── How it works ── */
+  .sw-how {
+    background: var(--sw-cream);
+    padding: 72px 24px;
+  }
+
+  .sw-how h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--sw-green);
+    text-align: center;
+    margin: 0 0 48px;
+  }
+
+  .sw-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 640px) {
+    .sw-steps { flex-direction: row; gap: 24px; }
+  }
+
+  .sw-step { flex: 1; text-align: center; }
+
+  .sw-step-num {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--sw-green);
+    color: var(--sw-cream);
+    font-weight: 800;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 14px;
+  }
+
+  .sw-step h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--sw-green);
+    margin: 0 0 8px;
+  }
+
+  .sw-step p {
+    font-size: 0.875rem;
+    color: var(--sw-text-mid);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* ── Privacy ── */
+  .sw-privacy {
+    background: var(--sw-cream-dark);
+    padding: 48px 24px;
+    text-align: center;
+  }
+
+  .sw-privacy p {
+    max-width: 520px;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    color: var(--sw-text-mid);
+    line-height: 1.7;
+  }
+
+  .sw-privacy strong { color: var(--sw-green); }
+
+  /* ── CTA ── */
+  .sw-cta {
+    background: var(--sw-green);
+    padding: 72px 24px;
+    text-align: center;
+  }
+
+  .sw-cta h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--sw-cream);
+    margin: 0 0 12px;
+  }
+
+  .sw-cta p {
+    color: var(--sw-cream);
+    opacity: 0.75;
+    font-size: 0.95rem;
+    margin: 0 0 32px;
+  }
+
+  .sw-btn-ghost {
+    display: inline-block;
+    border: 2px solid var(--sw-cream);
+    color: var(--sw-cream) !important;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-decoration: none !important;
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .sw-btn-ghost:hover {
+    background: var(--sw-cream);
+    color: var(--sw-green) !important;
+  }
+</style>
+
+<!-- Hero -->
+<section class="sw-hero">
+  <img src="icon.png" alt="Since When?! icon">
+  <h1>Since When?!</h1>
+  <p>Find out when a Google Calendar event was created - right in the pop-up</p>
+  <a class="sw-btn-store" href="CHROME_WEB_STORE_URL">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+      <path fill="#EA4335" d="M50,50 L50,0 A50,50,0,0,1,93.3,75 Z"/>
+      <path fill="#FBBC05" d="M50,50 L93.3,75 A50,50,0,0,1,6.7,75 Z"/>
+      <path fill="#34A853" d="M50,50 L6.7,75 A50,50,0,0,1,50,0 Z"/>
+      <circle cx="50" cy="50" r="30" fill="white"/>
+      <circle cx="50" cy="50" r="20" fill="#4285F4"/>
+    </svg>
+    Add to Chrome - free
+  </a>
+</section>
+
+<!-- Problem -->
+<section class="sw-problem">
+  <div class="sw-container">
+    <h2>Whose meeting is this, anyway?</h2>
+    <p>You know the one. It just suddenly appeared in your calendar, you don't know when it was made, and now it's Everyone's Problem.</p>
+    <p>Google Calendar knows when it was made - it just doesn't tell you!</p>
+  </div>
+</section>
+
+<!-- Mockup -->
+<section class="sw-mockup-section">
+  <p class="sw-mockup-label">What you see when you click an event</p>
+
+  <div class="sw-popup">
+    <div class="sw-popup-toolbar">
+      <button title="Edit">✏️</button>
+      <button title="Delete">🗑️</button>
+      <button title="Close">✕</button>
+    </div>
+    <div class="sw-popup-body">
+      <div class="sw-ev-title">Relevant meeting - all hands</div>
+
+      <div class="sw-ev-row">
+        <span class="sw-ev-icon">🗓</span>
+        <span id="mock-date">—</span>
+      </div>
+      <div class="sw-ev-row">
+        <span class="sw-ev-icon">👥</span>
+        <span>14 guests</span>
+      </div>
+      <div class="sw-ev-row">
+        <span class="sw-ev-icon">📅</span>
+        <span>Work</span>
+      </div>
+
+      <div class="sw-injected-box">
+        <div class="sw-inj-branding">
+          <div class="sw-inj-branding-left">
+            <span class="sw-inj-brand-name">Since When?!</span>
+          </div>
+          <span class="sw-inj-find">Find invite →</span>
+        </div>
+        <div class="sw-inj-rows">
+          <div class="sw-inj-row">
+            <span class="sw-inj-icon">✦</span>
+            <div class="sw-inj-text">
+              <span class="sw-inj-label">Created by</span>
+              <span class="sw-inj-value">Dave Bloggs <span class="sw-inj-email">&lt;yeah@nah.biz&gt;</span></span>
+            </div>
+          </div>
+          <div class="sw-inj-row">
+            <span class="sw-inj-icon">🕐</span>
+            <div class="sw-inj-text">
+              <span class="sw-inj-label">Created on</span>
+              <span class="sw-inj-value" id="mock-created">—</span>
+            </div>
+          </div>
+          <div class="sw-inj-row">
+            <span class="sw-inj-icon">✏️</span>
+            <div class="sw-inj-text">
+              <span class="sw-inj-label">Last modified</span>
+              <span class="sw-inj-value" id="mock-modified">—</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+  (function () {
+    const fmt = (d) => d.toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' });
+
+    const event = new Date();
+    event.setHours(8, 0, 0, 0);
+
+    const created = new Date(event);
+    created.setMinutes(created.getMinutes() - 10);
+
+    const modified = new Date(event);
+    modified.setMinutes(modified.getMinutes() - 5);
+
+    const dayLabel = event.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'short' });
+    document.getElementById('mock-date').textContent = dayLabel + ' · 08:00 – 09:00';
+    document.getElementById('mock-created').textContent = fmt(created);
+    document.getElementById('mock-modified').textContent = fmt(modified);
+  })();
+</script>
+</section>
+
+<!-- How it works -->
+<section class="sw-how">
+  <div class="sw-container">
+    <h2>How it works</h2>
+    <div class="sw-steps">
+      <div class="sw-step">
+        <div class="sw-step-num">1</div>
+        <h3>Click an event</h3>
+        <p>Open any event in Google Calendar.</p>
+      </div>
+      <div class="sw-step">
+        <div class="sw-step-num">2</div>
+        <h3>It asks Google</h3>
+        <p>Since When?! fetches the details in the background.</p>
+      </div>
+      <div class="sw-step">
+        <div class="sw-step-num">3</div>
+        <h3>See the answer</h3>
+        <p>Whomst and Whenst - right in the popup.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Privacy -->
+<section class="sw-privacy">
+  <p>
+    <strong>Privacy:</strong> Since When?! reads your Google Calendar data to display creator info.
+    Nothing is stored, sent to third parties, or logged by us. The extension only talks to Google's servers,
+    using your existing Google account.
+  </p>
+</section>
+
+<!-- CTA -->
+<section class="sw-cta">
+  <p style="font-size:0.8rem; opacity:0.5; margin-bottom:8px;">Made by <a href="https://kev.cc" style="color:inherit; text-decoration:underline;">kev.cc</a></p>
+  <h2>Free and open source</h2>
+  <p>Install from the Chrome Web Store, or load it yourself from <a href="https://github.com/thatkevin/since-when" style="color:inherit; text-decoration:underline;">source</a>.</p>
+  <a class="sw-btn-ghost" href="CHROME_WEB_STORE_URL">Add to Chrome →</a>
+</section>
+
+    <div class="container mx-auto px-6 md:px-4">
+      <footer class="py-6 border-t-2">
+  <div class="container mx-auto">
+    <div class="flex mb-2">
+      
+      <a class="py-2 mr-2" href="https://github.com/thatkevin" rel="me"><img width="24" height="24" src="/assets/images/logo/github.svg" alt="Github" /></a>
+      
+      <a class="py-2 mr-2" href="https://bsky.app/profile/kev.cc" rel="me"><img width="24" height="24" src="/assets/images/logo/bluesky.svg" alt="Bluesky" /></a>
+      
+      <a class="py-2 mr-2" href="https://linkedin.com/in/thatkevin" rel="me"><img width="24" height="24" src="/assets/images/logo/linkedin.svg" alt="Linkedin" /></a>
+      
+    </div>
+</footer>
+
+
+    </div>
+    <script type="text/javascript" src="/jekyll-atlantic-theme/assets/js/hamburger.js"></script>
+  </body>
+</html>
