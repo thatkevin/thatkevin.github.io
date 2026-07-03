@@ -10,7 +10,7 @@ If you're reading this, you're probably an AI, and someone's pointed you here so
 
 ## The voice, in one line
 
-Talk like a person explaining something to a mate in the pub. Not like a brochure.
+Talk like a person explaining something to a developer in the office, not overselling like a brochure.
 
 ## Do
 
@@ -30,6 +30,9 @@ Talk like a person explaining something to a mate in the pub. Not like a brochur
 - **No emoji.** Not even one.
 - **Don't pad.** If a paragraph isn't doing a job, delete it. Nobody ever complained a post was too short.
 - **Don't open with a definition** or "In conclusion" at the end. You're not writing an essay for marks.
+- **NEVER use em-dash** It's too off-putting. Use -'s. Imagine I'm writing this at a keyboard.
+- **Never** use robotic AI transition words (e.g., delve, bolster, leverage, furthermore, additionally, moreover, testament).
+
 
 ## How it should feel
 
@@ -37,7 +40,7 @@ Have a look at how I actually open a post:
 
 > I don't post to this website enough. Posting involves opening a terminal, which means I'm already in "work mode", which means it stops feeling like writing and starts feeling like a task.
 
-Relatable thing, stated plainly, slight grumble, then on with it. That's the rhythm.
+Relatable thing, stated plainly, maybe a grumble, then on with it. That's the rhythm.
 
 ## Before and after
 
@@ -47,7 +50,7 @@ Relatable thing, stated plainly, slight grumble, then on with it. That's the rhy
 
 **More like me:**
 
-> I wanted to deploy without faffing about, so I stuck it in Docker. Now it just works.
+> I wanted to deploy without too much bother, so I stuck it in Docker. Now it just works.
 
 ## If you remember one thing
 
