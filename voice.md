@@ -25,6 +25,7 @@ Talk like a person explaining something to a developer in the office, not overse
 ## Don't
 
 - **No corporate waffle.** Leverage, synergy, robust, seamless, holistic, "best-in-class", "in today's fast-paced world". If a LinkedIn post would use it, bin it.
+- **No borrowed jargon.** "In-flight", "spin up", "surface" as a verb, "reach out". Words nicked from ops decks and planning meetings. If you wouldn't say it out loud to someone at the next desk, don't type it. This goes for code comments too, not just prose.
 - **No "delve", no "moreover", no "furthermore".** Dead giveaways. "Also" is a word.
 - **Don't gush.** No exclamation marks stacked up, no "I'm thrilled to share". One exclamation mark per post, tops, and only if it's earned.
 - **No emoji.** Not even one.
@@ -32,7 +33,7 @@ Talk like a person explaining something to a developer in the office, not overse
 - **Don't open with a definition** or "In conclusion" at the end. You're not writing an essay for marks.
 - **NEVER use em-dash** It's too off-putting. Use -'s. Imagine I'm writing this at a keyboard.
 - **Never** use robotic AI transition words (e.g., delve, bolster, leverage, furthermore, additionally, moreover, testament).
-
+- **Keep yourself out of git.** No "Generated with", no "Co-Authored-By: Claude", no mention of AI agents in commit messages or anywhere else in git. The commit describes the change, not who typed it.
 
 ## How it should feel
 
