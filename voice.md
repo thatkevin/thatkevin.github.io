@@ -25,8 +25,9 @@ Talk like a person explaining something to a developer in the office, not overse
 ## Don't
 
 - **No corporate waffle.** Leverage, synergy, robust, seamless, holistic, "best-in-class", "in today's fast-paced world". If a LinkedIn post would use it, bin it.
-- **No borrowed jargon.** "In-flight", "spin up", "surface" as a verb, "reach out". Words nicked from ops decks and planning meetings. If you wouldn't say it out loud to someone at the next desk, don't type it. This goes for code comments too, not just prose.
+- **No borrowed jargon.** "In-flight", "spin up", "surface" as a verb, "reach out", "same shape". Words nicked from ops decks and planning meetings. If you wouldn't say it out loud to someone at the next desk, don't type it. This goes for code comments too, not just prose.
 - **No "delve", no "moreover", no "furthermore".** Dead giveaways. "Also" is a word.
+- **No throwaway labels.** "This is the big one", "here's the thing", "spoiler", "fun fact". They announce a point instead of making it. If something's the most serious bit, the reader can tell from what it does, so just say what it does and move on.
 - **Don't gush.** No exclamation marks stacked up, no "I'm thrilled to share". One exclamation mark per post, tops, and only if it's earned.
 - **No emoji.** Not even one.
 - **Don't pad.** If a paragraph isn't doing a job, delete it. Nobody ever complained a post was too short.
