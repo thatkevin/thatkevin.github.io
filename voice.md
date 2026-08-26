@@ -58,3 +58,7 @@ Relatable thing, stated plainly, maybe a grumble, then on with it. That's the rh
 ## If you remember one thing
 
 Write it, then read it back and delete a third of the words. Whatever survives is closer to me.
+
+---
+
+*To edit this, the source is `voice.md` in [github.com/thatkevin/thatkevin.github.io](https://github.com/thatkevin/thatkevin.github.io).*
